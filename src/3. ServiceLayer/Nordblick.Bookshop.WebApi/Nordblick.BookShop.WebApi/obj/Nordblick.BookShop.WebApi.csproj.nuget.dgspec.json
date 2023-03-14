@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\3. ServiceLayer\\Nordblick.Bookshop.WebApi\\Nordblick.BookShop.WebApi\\Nordblick.BookShop.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\3. ServiceLayer\\Nordblick.Bookshop.WebApi\\Nordblick.BookShop.WebApi\\Nordblick.BookShop.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\3. ServiceLayer\\Nordblick.Bookshop.WebApi\\Nordblick.BookShop.WebApi\\Nordblick.BookShop.WebApi.csproj",
+        "projectName": "Nordblick.BookShop.WebApi",
+        "projectPath": "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\3. ServiceLayer\\Nordblick.Bookshop.WebApi\\Nordblick.BookShop.WebApi\\Nordblick.BookShop.WebApi.csproj",
+        "packagesPath": "C:\\Users\\fnissen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\3. ServiceLayer\\Nordblick.Bookshop.WebApi\\Nordblick.BookShop.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\NuGet.Config",
+          "C:\\Users\\fnissen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\5. BusinessLayer\\Nordblick.Bookshop.BusinessObjects\\Nordblick.Bookshop.BusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\5. BusinessLayer\\Nordblick.Bookshop.BusinessObjects\\Nordblick.Bookshop.BusinessObjects.csproj"
+              },
+              "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\6. DataLayer\\Nordblick.Bookshop.DataObjects\\Nordblick.Bookshop.DataObjects.csproj": {
+                "projectPath": "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\6. DataLayer\\Nordblick.Bookshop.DataObjects\\Nordblick.Bookshop.DataObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\5. BusinessLayer\\Nordblick.Bookshop.BusinessObjects\\Nordblick.Bookshop.BusinessObjects.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\5. BusinessLayer\\Nordblick.Bookshop.BusinessObjects\\Nordblick.Bookshop.BusinessObjects.csproj",
+        "projectName": "Nordblick.Bookshop.BusinessObjects",
+        "projectPath": "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\5. BusinessLayer\\Nordblick.Bookshop.BusinessObjects\\Nordblick.Bookshop.BusinessObjects.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\6. DataLayer\\Nordblick.Bookshop.DataObjects\\Nordblick.Bookshop.DataObjects.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\6. DataLayer\\Nordblick.Bookshop.DataObjects\\Nordblick.Bookshop.DataObjects.csproj",
+        "projectName": "Nordblick.Bookshop.DataObjects",
+        "projectPath": "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\6. DataLayer\\Nordblick.Bookshop.DataObjects\\Nordblick.Bookshop.DataObjects.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\5. BusinessLayer\\Nordblick.Bookshop.BusinessObjects\\Nordblick.Bookshop.BusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\fnissen\\source\\Kunden\\Nordblick\\Bookshop\\src\\5. BusinessLayer\\Nordblick.Bookshop.BusinessObjects\\Nordblick.Bookshop.BusinessObjects.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. BusinessLayer", "5. BusinessLayer", "{8253AAC1-51DB-4924-8212-3C8A36600D44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. DataLayer", "6. DataLayer", "{71FD4C65-E5D7-49C1-A659-A23521C7C825}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Clients", "1. Clients", "{36D0AC29-B396-4D92-9EAA-DC60C5D6D1AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. ClientCore", "2. ClientCore", "{DE9B2DAF-1D15-40F0-B18F-2DB12D15197C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. ServiceLayer", "3. ServiceLayer", "{705946B5-E70B-4487-A35F-564233D58136}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Tools", "7. Tools", "{A79AF197-8C45-41FB-96D7-4B230A365D6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8. Tests", "8. Tests", "{E766FE0D-6268-4347-BAD8-2D41C2BA6504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nordblick.Bookshop.BusinessObjects", "5. BusinessLayer\Nordblick.Bookshop.BusinessObjects\Nordblick.Bookshop.BusinessObjects.csproj", "{9B1B7762-5AB8-40E2-8F62-E5CD5BE734BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nordblick.Bookshop.DataObjects", "6. DataLayer\Nordblick.Bookshop.DataObjects\Nordblick.Bookshop.DataObjects.csproj", "{02EA8B5E-9DA2-47CD-8DFD-B613657DD034}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nordblick.BookShop.WebApi", "3. ServiceLayer\Nordblick.Bookshop.WebApi\Nordblick.BookShop.WebApi\Nordblick.BookShop.WebApi.csproj", "{6E0DD572-C520-4698-ABDF-EF522FE6A030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nordblick.Bookshop.ClientCore", "2. ClientCore\Nordblick.Bookshop.ClientCore\Nordblick.Bookshop.ClientCore.csproj", "{0E64122D-C57A-4B08-A79B-A31B182B92DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITest", "1. Clients\APITest\APITest.csproj", "{03EE8B7C-755D-42AD-A609-7932680676FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForms", "WinForms", "{34BB826E-75D9-4783-B6CA-148D2F72B3AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{AE05B4AC-F85D-468B-8957-9A47C3B79A16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{1EEBC320-BA00-4CD7-B68D-C05A74406010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nordblick.Bookshop.WebShop", "1. Clients\Web\Nordblick.Bookshop.WebShop\Nordblick.Bookshop.WebShop.csproj", "{4DFE3AF6-9B60-427B-892C-84E07B06B642}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B1B7762-5AB8-40E2-8F62-E5CD5BE734BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1B7762-5AB8-40E2-8F62-E5CD5BE734BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1B7762-5AB8-40E2-8F62-E5CD5BE734BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1B7762-5AB8-40E2-8F62-E5CD5BE734BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02EA8B5E-9DA2-47CD-8DFD-B613657DD034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02EA8B5E-9DA2-47CD-8DFD-B613657DD034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02EA8B5E-9DA2-47CD-8DFD-B613657DD034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02EA8B5E-9DA2-47CD-8DFD-B613657DD034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0DD572-C520-4698-ABDF-EF522FE6A030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0DD572-C520-4698-ABDF-EF522FE6A030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0DD572-C520-4698-ABDF-EF522FE6A030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0DD572-C520-4698-ABDF-EF522FE6A030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E64122D-C57A-4B08-A79B-A31B182B92DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E64122D-C57A-4B08-A79B-A31B182B92DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E64122D-C57A-4B08-A79B-A31B182B92DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E64122D-C57A-4B08-A79B-A31B182B92DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EE8B7C-755D-42AD-A609-7932680676FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EE8B7C-755D-42AD-A609-7932680676FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EE8B7C-755D-42AD-A609-7932680676FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EE8B7C-755D-42AD-A609-7932680676FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DFE3AF6-9B60-427B-892C-84E07B06B642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DFE3AF6-9B60-427B-892C-84E07B06B642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DFE3AF6-9B60-427B-892C-84E07B06B642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DFE3AF6-9B60-427B-892C-84E07B06B642}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B1B7762-5AB8-40E2-8F62-E5CD5BE734BA} = {8253AAC1-51DB-4924-8212-3C8A36600D44}
+		{02EA8B5E-9DA2-47CD-8DFD-B613657DD034} = {71FD4C65-E5D7-49C1-A659-A23521C7C825}
+		{6E0DD572-C520-4698-ABDF-EF522FE6A030} = {705946B5-E70B-4487-A35F-564233D58136}
+		{0E64122D-C57A-4B08-A79B-A31B182B92DF} = {DE9B2DAF-1D15-40F0-B18F-2DB12D15197C}
+		{03EE8B7C-755D-42AD-A609-7932680676FE} = {34BB826E-75D9-4783-B6CA-148D2F72B3AF}
+		{34BB826E-75D9-4783-B6CA-148D2F72B3AF} = {36D0AC29-B396-4D92-9EAA-DC60C5D6D1AB}
+		{AE05B4AC-F85D-468B-8957-9A47C3B79A16} = {36D0AC29-B396-4D92-9EAA-DC60C5D6D1AB}
+		{1EEBC320-BA00-4CD7-B68D-C05A74406010} = {36D0AC29-B396-4D92-9EAA-DC60C5D6D1AB}
+		{4DFE3AF6-9B60-427B-892C-84E07B06B642} = {AE05B4AC-F85D-468B-8957-9A47C3B79A16}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08426B57-6052-425C-93BC-C2C637691D99}
+	EndGlobalSection
+EndGlobal

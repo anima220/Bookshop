@@ -1,0 +1,38 @@
+[
+    {
+        "id": 102,
+        "publisherId": 0,
+        "title": "Marry Hotter",
+        "publishingYear": null,
+        "pageCount": 1222,
+        "edition": null,
+        "price": 0,
+        "availabilityState": 0,
+        "coverType": 0,
+        "isEBook": true,
+        "state": 0,
+        "isbn": "91832129364969",
+        "createdOn": null,
+        "createdBy": 0,
+        "changedOn": "2020-11-05T15:53:39.7833333",
+        "changedBy": 0
+    },
+    {
+        "id": 104,
+        "publisherId": 0,
+        "title": "Loom",
+        "publishingYear": null,
+        "pageCount": 1221321,
+        "edition": null,
+        "price": 0,
+        "availabilityState": 0,
+        "coverType": 0,
+        "isEBook": true,
+        "state": 0,
+        "isbn": null,
+        "createdOn": null,
+        "createdBy": 0,
+        "changedOn": null,
+        "changedBy": 0
+    }
+]

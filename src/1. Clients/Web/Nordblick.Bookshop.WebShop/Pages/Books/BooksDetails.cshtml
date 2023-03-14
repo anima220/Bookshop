@@ -1,0 +1,128 @@
+﻿@page "/Details"
+@model Nordblick.Bookshop.WebShop.Pages.Books.BooksDetailsModel
+@{
+    ViewData["Title"] = "BooksDetails";
+}
+
+<div class="container">
+    <h1>Bücherliste</h1>
+
+    <h2>@Model.currentBook.Title</h2>
+    <div class="row">
+        <div class="col">
+            <table id="myTable" class="table table-dark">
+                <thead>
+                    <tr>
+                        <th style="display:none;">
+                            @Html.DisplayNameFor(model => model.currentBook.Id)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.currentBook.PublisherId)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.currentBook.Title)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.currentBook.PublishingYear)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.currentBook.PageCount)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.currentBook.Edition)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.currentBook.Price)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.currentBook.AvailabilityState)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.currentBook.CoverType)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.currentBook.IsEBook)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.currentBook.State)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.currentBook.Isbn)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.currentBook.CreatedBy)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.currentBook.CreatedOn)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.currentBook.ChangedBy)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.currentBook.ChangedOn)
+                        </th>
+                        <th>Aktionen</th>
+                    </tr>
+                </thead>
+                <tbody>                   
+                    <tr>
+                        <td style="display:none;">
+                            @Html.DisplayFor(model => model.currentBook.Id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.currentBook.PublisherId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.currentBook.Title)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.currentBook.PublishingYear)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.currentBook.PageCount)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.currentBook.Edition)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.currentBook.Price)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.currentBook.AvailabilityState)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.currentBook.CoverType)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.currentBook.IsEBook)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.currentBook.State)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.currentBook.Isbn)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.currentBook.CreatedBy)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.currentBook.CreatedOn)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.currentBook.ChangedBy)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.currentBook.ChangedOn)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id=""><i class="far fa-edit fa-lg">edit</i></a>
+                            <a asp-action="Details" asp-route-id=""><i class="fas fa-info fa-lg">details</i></a>
+                            <a asp-action="Remove" asp-route-id=""><i class="far fa-trash-alt fa-lg">kill</i></a>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
